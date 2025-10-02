@@ -1,0 +1,77 @@
+body{
+
+    margin: 0;
+    padding: 20px;
+    background: steelblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenedor{
+
+    display: flex;
+    gap: 20px;
+}
+
+#catalogo{
+
+    flex: 3;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.libro{
+
+    background: gray;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(156, 67, 156);
+    width: 200px;
+    color: white;
+}
+
+#estanteria{
+
+    flex: 1;
+    background: gray;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(156, 67, 156);
+    padding: 15px;
+
+}
+
+#lista-estanteria{
+
+    list-style: none;
+    padding: 0;
+}
+
+.btn_agregar{
+
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: turquoise;
+    color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.btn_agregar:hover{
+    background: yellow;
+    color: aqua;
+    transform: translateY(-4);
+}
